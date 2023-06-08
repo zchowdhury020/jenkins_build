@@ -19,7 +19,7 @@ public class SampleJavaProject implements Runnable {
 
     /** The delay between printed messages. */
     private static final long PRINT_DELAY = 1000L;
-
+    
     /** The name to be printed in the output message. */
     @Getter @Setter @NonNull
     @Parameter(names = "--name", description = "set the user's name",
@@ -28,7 +28,7 @@ public class SampleJavaProject implements Runnable {
 
     /** Command line parameter for --loop. */
     @Parameter(names = "--loop", description = "print endlessly, hotswap demo")
-    private boolean loop = false;
+    private ;
 
     /** Command line parameter for --help. */
     @Parameter(names = { "-h", "--help" }, description = "print help message")
