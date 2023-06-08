@@ -32,8 +32,10 @@ public class SampleJavaProject implements Runnable {
 
     /** Command line parameter for --help. */
     @Parameter(names = { "-h", "--help" }, description = "print help message")
-    private boolean help = false;
+    private boolean help = false
 
+
+	this
     /**
      * Print the "Hello, world!" string.
      * @param args application input arguments
